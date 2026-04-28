@@ -1,371 +1,371 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="빈경진 - 프론트엔드 개발자 포트폴리오" />
-    <title>BKJ | Developer Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="nav" id="nav">
-      <div class="nav__container">
-        <a href="#home" class="nav__logo">BKJ<span class="nav__logo-dot">.</span></a>
-        <ul class="nav__links" id="navLinks">
-          <li><a href="#about" class="nav__link">About</a></li>
-          <li><a href="#skills" class="nav__link">Skills</a></li>
-          <li><a href="#projects" class="nav__link">Projects</a></li>
-          <li><a href="#contact" class="nav__link">Contact</a></li>
-        </ul>
-        <button class="nav__hamburger" id="hamburger" aria-label="메뉴 열기">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </nav>
 
-    <!-- Hero -->
-    <section class="hero" id="home">
-      <div class="hero__bg-grid"></div>
-      <div class="hero__container">
-        <p class="hero__greeting">안녕하세요, 저는</p>
-        <h1 class="hero__name">빈경진<span class="hero__cursor">|</span></h1>
-        <h2 class="hero__title">
-          <span class="hero__title-text" id="typingText"></span>
-        </h2>
-        <p class="hero__desc">
-          사용자 경험을 중심에 두고,<br />
-          깔끔하고 유지보수하기 좋은 코드를 지향하는 개발자입니다.
-        </p>
-        <div class="hero__actions">
-          <a href="#projects" class="btn btn--primary">프로젝트 보기</a>
-          <a href="#contact" class="btn btn--outline">연락하기</a>
-        </div>
-        <div class="hero__socials">
-          <a href="https://github.com/meBeen" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="mailto:your@email.com" aria-label="이메일">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-        </div>
-      </div>
-      <div class="hero__scroll-hint">
-        <span>Scroll</span>
-        <div class="hero__scroll-line"></div>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="빈경진 - 프론트엔드 개발자 포트폴리오" />
+  <title>BKJ | Developer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <!-- About -->
-    <section class="about section" id="about">
-      <div class="container">
-        <h2 class="section__title">About <span>Me</span></h2>
-        <div class="about__grid">
-          <div class="about__image-wrap">
-            <div class="about__image-placeholder">
-              <i class="fa-solid fa-user"></i>
-              <!-- 프로필 이미지 준비되면 아래 태그로 교체하세요 -->
-              <!-- <img src="assets/images/profile.jpg" alt="빈경진 프로필" /> -->
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#home" class="nav__logo">BKJ<span class="nav__logo-dot">.</span></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__container">
+      <p class="hero__greeting">안녕하세요, 저는</p>
+      <h1 class="hero__name">빈경진<span class="hero__cursor">|</span></h1>
+      <h2 class="hero__title">
+        <span class="hero__title-text" id="typingText"></span>
+      </h2>
+      <p class="hero__desc">
+        사용자 경험을 중심에 두고,<br />
+        깔끔하고 유지보수하기 좋은 코드를 지향하는 개발자입니다.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">프로젝트 보기</a>
+        <a href="#contact" class="btn btn--outline">연락하기</a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://github.com/meBeen" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:your@email.com" aria-label="이메일">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section__title">About <span>Me</span></h2>
+      <div class="about__grid">
+        <div class="about__image-wrap">
+          <div class="about__image-placeholder">
+            <i class="fa-solid fa-user"></i>
+            <!-- 프로필 이미지 준비되면 아래 태그로 교체하세요 -->
+            <!-- <img src="assets/images/profile.jpg" alt="빈경진 프로필" /> -->
+          </div>
+        </div>
+        <div class="about__content">
+          <h3 class="about__subtitle">개발자로서의 저를 소개합니다</h3>
+          <p class="about__text">
+            안녕하세요! 저는 <strong>빈경진</strong>입니다. 현재 [늘엔]에서 [PL/풀스택 개발자]로 일하고 있습니다.
+            사용자 중심의 인터페이스와 효율적인 코드에 관심이 많습니다.
+          </p>
+          <p class="about__text">
+            새로운 기술을 배우는 것을 즐기며, 팀과의 협업을 통해 더 나은 결과물을
+            만들어나가는 것을 목표로 합니다.
+          </p>
+          <div class="about__info-grid">
+            <div class="about__info-item">
+              <span class="about__info-label"><i class="fa-solid fa-graduation-cap"></i> 학력</span>
+              <span class="about__info-value">학교명 / 전공</span>
+            </div>
+            <div class="about__info-item">
+              <span class="about__info-label"><i class="fa-solid fa-location-dot"></i> 위치</span>
+              <span class="about__info-value">서울, 대한민국</span>
+            </div>
+            <div class="about__info-item">
+              <span class="about__info-label"><i class="fa-solid fa-briefcase"></i> 관심 분야</span>
+              <span class="about__info-value">Frontend / Web</span>
+            </div>
+            <div class="about__info-item">
+              <span class="about__info-label"><i class="fa-solid fa-code"></i> GitHub</span>
+              <span class="about__info-value">
+                <a href="https://github.com/meBeen" target="_blank" rel="noopener">meBeen</a>
+              </span>
             </div>
           </div>
-          <div class="about__content">
-            <h3 class="about__subtitle">개발자로서의 저를 소개합니다</h3>
-            <p class="about__text">
-              안녕하세요! 저는 <strong>빈경진</strong>입니다. [학교/회사명]에서 [전공/직무]를 하고 있으며,
-              사용자 중심의 인터페이스와 효율적인 코드에 관심이 많습니다.
+          <a href="assets/resume.pdf" class="btn btn--primary" download>
+            <i class="fa-solid fa-download"></i> 이력서 다운로드
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section__title">Tech <span>Skills</span></h2>
+      <div class="skills__categories">
+        <div class="skills__category">
+          <h3 class="skills__category-title">Frontend</h3>
+          <div class="skills__grid">
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills__category">
+          <h3 class="skills__category-title">Backend / DB</h3>
+          <div class="skills__grid">
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+              <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+              <span>Python</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills__category">
+          <h3 class="skills__category-title">Tools</h3>
+          <div class="skills__grid">
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+              <span>GitHub</span>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section__title">My <span>Projects</span></h2>
+      <div class="projects__filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="etc">Etc</button>
+      </div>
+      <div class="projects__grid" id="projectsGrid">
+
+        <!-- 프로젝트 카드 예시 1 -->
+        <div class="project-card" data-category="web">
+          <div class="project-card__image">
+            <div class="project-card__image-placeholder">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" target="_blank" rel="noopener" class="project-card__link">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" target="_blank" rel="noopener" class="project-card__link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <span class="project-card__category">Web</span>
+            <h3 class="project-card__title">프로젝트 이름</h3>
+            <p class="project-card__desc">
+              프로젝트에 대한 간단한 설명을 작성해주세요. 어떤 문제를 해결했는지,
+              어떤 기술을 사용했는지 간략히 소개합니다.
             </p>
-            <p class="about__text">
-              새로운 기술을 배우는 것을 즐기며, 팀과의 협업을 통해 더 나은 결과물을
-              만들어나가는 것을 목표로 합니다.
+            <div class="project-card__tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 프로젝트 카드 예시 2 -->
+        <div class="project-card" data-category="web">
+          <div class="project-card__image">
+            <div class="project-card__image-placeholder">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" target="_blank" rel="noopener" class="project-card__link">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" target="_blank" rel="noopener" class="project-card__link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <span class="project-card__category">Web</span>
+            <h3 class="project-card__title">프로젝트 이름 2</h3>
+            <p class="project-card__desc">
+              두 번째 프로젝트에 대한 설명입니다. 실제 프로젝트로 교체해주세요.
             </p>
-            <div class="about__info-grid">
-              <div class="about__info-item">
-                <span class="about__info-label"><i class="fa-solid fa-graduation-cap"></i> 학력</span>
-                <span class="about__info-value">학교명 / 전공</span>
-              </div>
-              <div class="about__info-item">
-                <span class="about__info-label"><i class="fa-solid fa-location-dot"></i> 위치</span>
-                <span class="about__info-value">서울, 대한민국</span>
-              </div>
-              <div class="about__info-item">
-                <span class="about__info-label"><i class="fa-solid fa-briefcase"></i> 관심 분야</span>
-                <span class="about__info-value">Frontend / Web</span>
-              </div>
-              <div class="about__info-item">
-                <span class="about__info-label"><i class="fa-solid fa-code"></i> GitHub</span>
-                <span class="about__info-value">
-                  <a href="https://github.com/meBeen" target="_blank" rel="noopener">meBeen</a>
-                </span>
-              </div>
+            <div class="project-card__tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
             </div>
-            <a href="assets/resume.pdf" class="btn btn--primary" download>
-              <i class="fa-solid fa-download"></i> 이력서 다운로드
-            </a>
           </div>
         </div>
+
+        <!-- 프로젝트 카드 예시 3 -->
+        <div class="project-card" data-category="app">
+          <div class="project-card__image">
+            <div class="project-card__image-placeholder">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <div class="project-card__overlay">
+              <a href="#" target="_blank" rel="noopener" class="project-card__link">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <span class="project-card__category">App</span>
+            <h3 class="project-card__title">프로젝트 이름 3</h3>
+            <p class="project-card__desc">
+              세 번째 프로젝트에 대한 설명입니다. 실제 프로젝트로 교체해주세요.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Skills -->
-    <section class="skills section" id="skills">
-      <div class="container">
-        <h2 class="section__title">Tech <span>Skills</span></h2>
-        <div class="skills__categories">
-          <div class="skills__category">
-            <h3 class="skills__category-title">Frontend</h3>
-            <div class="skills__grid">
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
-                <span>HTML5</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
-                <span>CSS3</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
-                <span>JavaScript</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
-                <span>React</span>
-              </div>
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section__title">Get In <span>Touch</span></h2>
+      <p class="contact__subtitle">
+        프로젝트 협업, 채용 문의, 또는 궁금한 점이 있으시면 언제든지 연락주세요!
+      </p>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <div class="contact__info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <h4>이메일</h4>
+              <a href="mailto:your@email.com">your@email.com</a>
             </div>
           </div>
-          <div class="skills__category">
-            <h3 class="skills__category-title">Backend / DB</h3>
-            <div class="skills__grid">
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
-                <span>Node.js</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
-                <span>Python</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
-                <span>MySQL</span>
-              </div>
+          <div class="contact__info-item">
+            <div class="contact__info-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/meBeen" target="_blank" rel="noopener">github.com/meBeen</a>
             </div>
           </div>
-          <div class="skills__category">
-            <h3 class="skills__category-title">Tools</h3>
-            <div class="skills__grid">
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
-                <span>Git</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-                <span>GitHub</span>
-              </div>
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
-                <span>Figma</span>
-              </div>
+          <div class="contact__info-item">
+            <div class="contact__info-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h4>위치</h4>
+              <span>서울, 대한민국</span>
             </div>
           </div>
         </div>
+        <form class="contact__form" id="contactForm">
+          <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="홍길동" required />
+          </div>
+          <div class="form-group">
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">메시지</label>
+            <textarea id="message" name="message" rows="5" placeholder="메시지를 입력해주세요..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <i class="fa-solid fa-paper-plane"></i> 메시지 보내기
+          </button>
+        </form>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Projects -->
-    <section class="projects section" id="projects">
-      <div class="container">
-        <h2 class="section__title">My <span>Projects</span></h2>
-        <div class="projects__filter">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="web">Web</button>
-          <button class="filter-btn" data-filter="app">App</button>
-          <button class="filter-btn" data-filter="etc">Etc</button>
-        </div>
-        <div class="projects__grid" id="projectsGrid">
-
-          <!-- 프로젝트 카드 예시 1 -->
-          <div class="project-card" data-category="web">
-            <div class="project-card__image">
-              <div class="project-card__image-placeholder">
-                <i class="fa-solid fa-laptop-code"></i>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" target="_blank" rel="noopener" class="project-card__link">
-                  <i class="fa-brands fa-github"></i> GitHub
-                </a>
-                <a href="#" target="_blank" rel="noopener" class="project-card__link">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
-                </a>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <span class="project-card__category">Web</span>
-              <h3 class="project-card__title">프로젝트 이름</h3>
-              <p class="project-card__desc">
-                프로젝트에 대한 간단한 설명을 작성해주세요. 어떤 문제를 해결했는지,
-                어떤 기술을 사용했는지 간략히 소개합니다.
-              </p>
-              <div class="project-card__tags">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- 프로젝트 카드 예시 2 -->
-          <div class="project-card" data-category="web">
-            <div class="project-card__image">
-              <div class="project-card__image-placeholder">
-                <i class="fa-solid fa-globe"></i>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" target="_blank" rel="noopener" class="project-card__link">
-                  <i class="fa-brands fa-github"></i> GitHub
-                </a>
-                <a href="#" target="_blank" rel="noopener" class="project-card__link">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
-                </a>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <span class="project-card__category">Web</span>
-              <h3 class="project-card__title">프로젝트 이름 2</h3>
-              <p class="project-card__desc">
-                두 번째 프로젝트에 대한 설명입니다. 실제 프로젝트로 교체해주세요.
-              </p>
-              <div class="project-card__tags">
-                <span class="tag">React</span>
-                <span class="tag">Node.js</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- 프로젝트 카드 예시 3 -->
-          <div class="project-card" data-category="app">
-            <div class="project-card__image">
-              <div class="project-card__image-placeholder">
-                <i class="fa-solid fa-mobile-screen"></i>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" target="_blank" rel="noopener" class="project-card__link">
-                  <i class="fa-brands fa-github"></i> GitHub
-                </a>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <span class="project-card__category">App</span>
-              <h3 class="project-card__title">프로젝트 이름 3</h3>
-              <p class="project-card__desc">
-                세 번째 프로젝트에 대한 설명입니다. 실제 프로젝트로 교체해주세요.
-              </p>
-              <div class="project-card__tags">
-                <span class="tag">Python</span>
-                <span class="tag">MySQL</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">
+        © 2026 빈경진. Designed & Built with
+        <i class="fa-solid fa-heart" style="color: var(--accent)"></i>
+      </p>
+      <div class="footer__socials">
+        <a href="https://github.com/meBeen" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:your@email.com" aria-label="이메일">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- Contact -->
-    <section class="contact section" id="contact">
-      <div class="container">
-        <h2 class="section__title">Get In <span>Touch</span></h2>
-        <p class="contact__subtitle">
-          프로젝트 협업, 채용 문의, 또는 궁금한 점이 있으시면 언제든지 연락주세요!
-        </p>
-        <div class="contact__grid">
-          <div class="contact__info">
-            <div class="contact__info-item">
-              <div class="contact__info-icon">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div>
-                <h4>이메일</h4>
-                <a href="mailto:your@email.com">your@email.com</a>
-              </div>
-            </div>
-            <div class="contact__info-item">
-              <div class="contact__info-icon">
-                <i class="fa-brands fa-github"></i>
-              </div>
-              <div>
-                <h4>GitHub</h4>
-                <a href="https://github.com/meBeen" target="_blank" rel="noopener">github.com/meBeen</a>
-              </div>
-            </div>
-            <div class="contact__info-item">
-              <div class="contact__info-icon">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div>
-                <h4>위치</h4>
-                <span>서울, 대한민국</span>
-              </div>
-            </div>
-          </div>
-          <form class="contact__form" id="contactForm">
-            <div class="form-group">
-              <label for="name">이름</label>
-              <input type="text" id="name" name="name" placeholder="홍길동" required />
-            </div>
-            <div class="form-group">
-              <label for="email">이메일</label>
-              <input type="email" id="email" name="email" placeholder="email@example.com" required />
-            </div>
-            <div class="form-group">
-              <label for="message">메시지</label>
-              <textarea id="message" name="message" rows="5" placeholder="메시지를 입력해주세요..." required></textarea>
-            </div>
-            <button type="submit" class="btn btn--primary btn--full">
-              <i class="fa-solid fa-paper-plane"></i> 메시지 보내기
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="맨 위로">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <p class="footer__text">
-          © 2026 빈경진. Designed & Built with
-          <i class="fa-solid fa-heart" style="color: var(--accent)"></i>
-        </p>
-        <div class="footer__socials">
-          <a href="https://github.com/meBeen" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="mailto:your@email.com" aria-label="이메일">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
+  <script src="js/main.js"></script>
+</body>
 
-    <!-- Back to top -->
-    <button class="back-to-top" id="backToTop" aria-label="맨 위로">
-      <i class="fa-solid fa-chevron-up"></i>
-    </button>
-
-    <script src="js/main.js"></script>
-  </body>
 </html>

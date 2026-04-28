@@ -51,10 +51,10 @@ function updateActiveNavLink() {
    Typing Effect
    =========================== */
 const typingTexts = [
-  'Frontend Developer',
-  'UI/UX Enthusiast',
+  'Full Stack Developer',
   'Problem Solver',
-  '개발자 빈경진',
+  'Project Leader',
+  '입니다.',
 ];
 
 let textIndex = 0;
